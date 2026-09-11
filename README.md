@@ -6,7 +6,7 @@ The application allows users to explore artists, analyze song characteristics, v
 
 ## 🚀 Live Demo
 
-👉 **[Open Smoothify Live](YOUR_STREAMLIT_APP_LINK)**
+👉 **[Open Smoothify Live](https://aaimee-gogoi-spotify-artist-analysis-smoothyfy-corrected-jmrllu.streamlit.app/)**
 
 ## 📌 Features
 
