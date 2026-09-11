@@ -1,43 +1,117 @@
-# 🎵 Smoothyfy
+# 🎵 Smoothyfy — Spotify Artist & Song Intelligence
 
 <p align="center">
-  <img src="smoothyfy-logo.png" width="150">
+  <img src="smoothfy-logo.png" width="180">
 </p>
 
-### Spotify Artist & Song Intelligence
+<p align="center">
+  <b>Explore • Analyze • Discover</b>
+</p>
 
-Smoothyfy is an interactive Spotify Artist & Song Analysis web application built with Python and Streamlit.
+<p align="center">
+  An interactive music analytics application built with Python, Streamlit and Machine Learning.
+</p>
 
-Explore artists, analyze songs, view popularity insights, and discover music through an interactive dashboard.
+---
 
 ## 🚀 Live Demo
 
-👉 [Open Smoothyfy Live](https://aaimee-gogoi-spotify-artist-analysis-smoothyfy-corrected-jmrllu.streamlit.app/)
+<p align="center">
+
+👉 **[🎧 Open Smoothyfy Live](https://aaimee-gogoi-spotify-artist-analysis-smoothyfy-corrected-jmrllu.streamlit.app/)**
+
+</p>
+
+---
+
+## 🎶 About Smoothyfy
+
+**Smoothyfy** is an interactive Spotify Artist & Song Analysis application designed to turn music data into meaningful insights.
+
+Users can search for artists, explore their statistics, discover associated songs, analyze popularity, and interact with data-driven visualizations through a simple Streamlit dashboard.
+
+---
 
 ## ✨ Features
 
-- 🔎 Search and explore Spotify artists
-- 🎵 Explore songs and artist information
-- ⭐ Analyze popularity
-- 📊 Interactive visualizations
-- 🤖 Machine-learning based song analysis
-- 🎧 Open artists directly on Spotify
+🔎 **Artist Search**  
+Search and explore artists from the available dataset.
+
+👤 **Artist Insights**  
+View artist information, followers and popularity metrics.
+
+🎵 **Song Exploration**  
+Explore songs associated with selected artists.
+
+⭐ **Popularity Analysis**  
+Analyze artist and song popularity using data-driven insights.
+
+📊 **Interactive Visualizations**  
+Understand music trends through visual and interactive charts.
+
+🤖 **Machine Learning**  
+Use clustering and prediction models to analyze Spotify song data.
+
+🎧 **Spotify Integration**  
+Open artists directly on Spotify from the application.
+
+---
+
+## 🧠 Machine Learning
+
+Smoothyfy includes machine-learning components for analyzing Spotify song data.
+
+### Models & Techniques
+
+- 🔹 **K-Means Clustering** — groups songs based on their characteristics
+- 🔹 **Feature Scaling** — prepares numerical features for machine learning
+- 🔹 **Popularity Prediction** — analyzes and predicts song popularity
+- 🔹 **Pre-trained Models** — `.pkl` files are loaded directly into the application
+
+---
 
 ## 🛠️ Tech Stack
 
-Python • Streamlit • Pandas • NumPy • Scikit-learn • Joblib • Matplotlib • Seaborn • Plotly
+| Technology | Purpose |
+|------------|---------|
+| 🐍 Python | Core programming |
+| 🎈 Streamlit | Web application |
+| 🐼 Pandas | Data analysis |
+| 🔢 NumPy | Numerical computation |
+| 🤖 Scikit-learn | Machine Learning |
+| 📦 Joblib | Model loading |
+| 📈 Matplotlib | Visualization |
+| 📊 Seaborn | Statistical visualization |
+| 📉 Plotly | Interactive visualization |
 
-## 🤖 Machine Learning
+---
 
-- K-Means Clustering
-- Feature scaling
-- Popularity prediction
+## 📂 Dataset
 
-## 🎯 Objective
+The project uses Spotify song and artist data containing information related to:
 
-To combine data analysis, visualization, and machine learning into an interactive music analytics application.
+- Artist information
+- Song characteristics
+- Popularity
+- Audio-related features
 
-## 👩‍💻 Author
+The dataset is processed using **Pandas** and used for exploratory analysis and machine-learning tasks.
 
-**AIMEE GOGOI**  
-Data Science & AI Student
+---
+
+## 📁 Project Structure
+
+```text
+Spotify-Artist-Analysis/
+│
+├── 🎵 Smoothify_corrected.py
+├── 📊 spotifydataset.csv
+├── 📊 clustered_songs.csv
+│
+├── 🤖 kmeans_model.pkl
+├── 🤖 popularity_model.pkl
+├── ⚙️ scaler.pkl
+│
+├── 📦 requirements.txt
+├── 🖼️ smoothfy-logo.png
+└── 📖 README.md
